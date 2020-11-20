@@ -78,5 +78,51 @@ inquirer
             email: response.email
         };
 
-        let readme;
+        let readme = `# ${arg.title}
+
+## Description
+${arg.descrip}
+
+License: ${arg.license}
+
+***
+
+### Table of Contents
+- [Installation](#installation)
+- [Usage](#usage-information)
+- [Contribute](#contribution-guidelines)
+- [Test](#test-instructions)
+- [Questions](#questions)
+
+***
+
+### Installation
+${arg.install}
+
+***
+
+### Usage Information
+${arg.usage}
+
+***
+
+### Contribution Guidelines
+${arg.cont}
+
+***
+
+### Test Instructions
+${arg.test}
+
+***
+
+### Questions
+If you have any additional questions, feel free to reach out to me:
+
+GitHub: [${arg.user}](https://www.github.com/${arg.user})
+Email: ${arg.email}`;
+
+        fs.writeFile('README.md', readme, (err) =>
+            err ? console.error(err) : console.log('Success!')
+        );
     });

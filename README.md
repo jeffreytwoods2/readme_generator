@@ -1,7 +1,7 @@
-# TITLE
+# Readme Generator
 
 ## Description
-${arg.descrip}
+Automatically generates a professional readme document.
 
 LICENSE
 
@@ -17,28 +17,27 @@ LICENSE
 ***
 
 ### Installation
-${arg.install}
+To install, download all files in this repository and save to a local folder.
 
 ***
 
 ### Usage Information
-${arg.usage}
+Can be used before, during, and after a project to create and update your readme file.
 
 ***
 
 ### Contribution Guidelines
-${arg.cont}
+To contribute, fork this repository, add your code, and then send a pull request.
 
 ***
 
 ### Test Instructions
-${arg.test}
+To test, open the shell of your choice, navigate to this folder, and run "node index.js" in the command line.
 
 ***
 
 ### Questions
 If you have any additional questions, feel free to reach out to me:
 
-GitHub: [${arg.user}](https://www.github.com/${arg.user})
-Email: ${arg.email}
-
+GitHub: [jeffreytwoods2](https://www.github.com/jeffreytwoods2)
+Email: jeffreytwoods2@icloud.com
