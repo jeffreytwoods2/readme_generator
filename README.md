@@ -3,7 +3,7 @@
 ## Description
 Automatically generates a professional readme document.
 
-LICENSE
+License: MIT
 
 ***
 
