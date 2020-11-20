@@ -120,6 +120,7 @@ ${arg.test}
 If you have any additional questions, feel free to reach out to me:
 
 GitHub: [${arg.user}](https://www.github.com/${arg.user})
+
 Email: ${arg.email}`;
 
         fs.writeFile('README.md', readme, (err) =>
