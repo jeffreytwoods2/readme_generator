@@ -64,3 +64,19 @@ inquirer
             name: 'email'
         }
     ])
+
+    .then((response) => {
+        let arg = {
+            title: response.title,
+            descrip: response.descrip,
+            install: response.install,
+            usage: response.usage,
+            cont: response.cont,
+            test: response.test,
+            license: response.license,
+            user: response.user,
+            email: response.email
+        };
+
+        let readme;
+    });
