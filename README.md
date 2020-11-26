@@ -26,15 +26,15 @@ Can be used before, during, and after a project to create and update your readme
 
 Command prompt will ask you for project details:
 
-[cap1](screencaps/cap1.png)
+![cap1](screencaps/cap1.png)
 
 The readme will be generated with proper markdown syntax:
 
-[cap2](screencaps/cap2.png)
+![cap2](screencaps/cap2.png)
 
 When readme is displayed on a site such as GitHub, it will appear well-formatted:
 
-[cap3](screencaps/cap3.png)
+![cap3](screencaps/cap3.png)
 
 ***
 
